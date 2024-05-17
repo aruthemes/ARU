@@ -1,0 +1,675 @@
+body{
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: aru;
+  src: url(Baron/Baron/Commercial/OTF/BaronNeue-Regular.otf);
+}
+
+/* <!-- Header Start--> */
+
+/* .headersection{
+  position: relative;
+} */
+.container{
+  align-items: center;
+  padding: 0px 0px 5px 0px ;
+}
+#hsphoneicondiv{
+  align-self: center;
+}
+#hsphoneicon{
+  font-size: 30px;
+}
+.hsicona{
+  color: black;
+}
+/* #hslogo{
+  width: 150px;
+} */
+.hslogo{
+  font-size: 90px;
+  font-family: aru;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  background: url(image/imagethree.png);
+  -webkit-background-clip: text;
+  background-position: 0 0 ;
+  animation: back 200s linear infinite;
+  letter-spacing: 10px;
+}
+@keyframes back{
+  100%{
+    background-position: 2000px 0 ;
+  }
+}
+
+
+.hslogo h1{
+  margin-left: -10px;
+  color: transparent;
+}
+#hsemaildiv{
+  align-self: center;
+}
+#hsemail{
+  font-size: 30px;
+}
+
+/* Shape Devider */
+
+.custom-shape-divider-top-1715410964 {
+  position: absolute;
+  top: 121.4px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1715410964 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 20px;
+}
+
+.custom-shape-divider-top-1715410964 .shape-fill {
+  fill: #ffffff;
+}
+/* <!-- Header End--> */
+
+/* <!-- First Section Start --> */
+#sectionone{
+  background: url(image/background.png);
+  background-size: cover ;
+  background-position: center;
+  height: 600px;
+  align-content: center;
+  border-bottom: 5px dotted white;
+}
+.sectiononeh2{
+  color: white;
+  font-size: 60px;
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 5px 5px black;
+}
+.sectiononebutton{
+  background: none;
+  border: 4px solid white;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+  border-width: 3px 0px 3px 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.sectionone.divone.col-6 {
+  align-content: left !important;
+}
+.sectionone.divone{
+  margin-top: 250px;
+}
+.sectionone.divtwo{
+  margin-top: -350px;
+  margin-left: 500px;
+}
+#sectiononeimg{
+  width: 500px;
+  padding: 0px;
+}
+#sectionone .divone{
+  text-align: left;
+  align-content: center;
+}
+.roateh2{
+  font-size: 20px;
+  color: white;
+  display: none;
+}
+/* <!-- First Section End --> */
+/* <!-- Combo Pack section Second Start --> */
+#sectiontwo{
+  background: url(image/backgroundtwo.png) ;
+  background-size: cover ;
+  background-position: center;
+  padding: 20px 0px 25px 0px;
+  margin: 0px;
+  border-bottom: 5px dotted rgb(255, 255, 255) ;
+}
+.sectiontwoimg{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px 5px;
+}
+.sectiontwoimg img{
+  width: 135px;
+  height: 180px;
+}
+.sectiontwoh3{
+  align-content: center;
+}
+.sectiontwo.divtwo{
+  margin-top: -200px;
+  margin-left: 100px;
+}
+.sectiontwo.divthree{
+  margin-top: -200px;
+  margin-left: 600px;
+}
+.sectiontwoh31{
+  color: white;
+  font-size: 40px;
+  font-family: "Nova Cut", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.sectiontwoh32{
+  color: white;
+  font-size: 18px;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 20px;
+}
+.sectiontwobutton{
+  align-content: center;
+}
+.sectiontwobutton button{
+  background: none;
+  border: 4px solid white;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+  border-width: 3px 0px 3px 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* <!-- Combo Pack section Second End --> */
+/* <!-- Thired Section Start --> */
+.sectionthree{
+  background: url(image/backgroundthree.png);
+  background-size: cover ;
+  background-position: center;
+  border-top: 5px dotted rgb(0, 0, 103) ;
+  border-bottom: 5px dotted rgb(208, 208, 208) ;
+}
+.sectionthreehead{
+  text-align: center;
+  padding: 50px 0px 40px 0px;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sectionthreehead h3{
+  font-size: 40px;
+}
+.sectionthreeimg{
+  width: 150px;
+}
+.sectionthreeimgh3{
+  font-size: 30px;
+  margin: 25px 0px 10px 0px;
+  font-family: "Laila", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.sectionthreeimgp{
+  font-size: 16px;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* <!-- Thired Section End --> */
+
+/* <!-- Fourth Section Start --> */
+.sectionfour{
+  background: url(image/backgroundfour.png);
+  background-size: cover ;
+  background-position: center;
+  border-top: 5px dotted rgb(255, 255, 255) ;
+  border-bottom: 5px dotted rgb(129, 92, 40) ;
+}
+.sectionfourhead{
+  text-align: center;
+  padding: 50px 0px 40px 0px;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sectionfourhead h3{
+  font-size: 40px;
+}
+.sectionfourimg{
+  width: 230px;
+  height: 303px;
+  border: 3px dashed black;
+}
+.sectionfourimgh3{
+  font-size: 30px;
+  margin: 25px 0px;
+  font-family: "Laila", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/* <!-- Fourth Section End --> */
+
+/* <!-- Fifth Section Start --> */
+.sectionfifth{
+  background: url(image/backgroundfifth.png);
+  background-size: cover ;
+  background-position: center;
+  border-bottom: 5px dotted rgb(129, 92, 40) ;
+}
+.sectionfifthhead{
+  text-align: center;
+  padding: 50px 0px 40px 0px;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sectionfifthhead h3{
+  font-size: 40px;
+}
+.sectionfifthimg{
+  width: 230px;
+  height: 303px;
+  border: 3px dashed black;
+}
+.sectionfifthimgh3{
+  font-size: 30px;
+  margin: 25px 0px;
+  font-family: "Laila", serif;
+  font-weight: 600;
+  font-style: normal; 
+}
+.marooncolor{
+  color: maroon;
+}
+.pinkcolor{
+  color: #da4b84;
+}
+.redcolor{
+  color: red;
+}
+/* <!-- Fifth Section End --> */
+
+/* <!-- Sixth Section Start --> */
+.sectionsixth{
+  background: url(image/backgroundsixth.png);
+  background-size: cover ;
+  background-position: center;
+  border-top: 5px dotted rgb(255, 255, 255) ;
+  border-bottom: 5px dotted rgb(255, 255, 255) ;
+  padding-top: 30px;
+}
+.sectionsixthh31 , .sectionsixthh32{
+  font-size: 40px;
+  padding: 20px 0px;
+  text-align: center;
+  font-family: "Laila", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.sectionsixthh32{
+  color: red;
+  margin-top: 30px;
+}
+.sectionsixthp{
+  font-size: 20px;
+  text-align: center;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sectionsixthul ul li{
+  list-style: none;
+  font-size: 18px;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 40px;
+}
+.sectionsixthbutton{
+  background: none;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+  border-width: 3px 0px 3px 0px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* <!-- Sixth Section End --> */
+
+/* Footer Social Section Start */
+.footermaindiv{
+  border-top: 5px dotted rgb(129, 92, 40) ;
+  border-bottom: 5px dotted rgb(129, 92, 40) ;
+}
+.footer.container{
+  padding-top: 50px;
+}
+.footerlogoimg{
+  width: 200px;
+}
+.footersocial{
+  text-align: center;
+}
+.footersocialicon{
+  font-size: 30px;
+  margin-right: 5px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footerp{
+  font-weight: 600;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+/* Footer Social Section End */
+
+/* Order Page */
+
+.orderpagefooter{
+  border: none;
+}
+
+
+
+
+/* Responsive */
+
+@media (max-width:1200px){
+  #sectiononeimg{
+    width: 400px;
+  }
+  .sectiontwoh31{
+    font-size: 33px;
+  }
+  .sectiontwoimg img{
+    width: 100px;
+    height: 130px;
+  }
+  .sectionthreeimgh3{
+    font-size: 25px;
+  }
+  .sectionfourimgh3{
+    font-size: 25px;
+  }
+  .sectionfifthimgh3{
+    font-size: 25px;
+  }
+  .sectionone.divone{
+    margin-top: 100px;
+  }
+  .sectionone.divtwo{
+    margin-top: -190px;
+    margin-left: 300px;
+  }
+  .sectiontwo.divtwo{
+    margin-top: -100px;
+    margin-left: 50px;
+  }
+  .sectiontwo.divthree{
+    margin-top: -120px;
+    margin-left: 450px;
+  }
+}
+
+@media (max-width:992px){
+  .container{
+    max-width: 900px;
+  }
+  #sectiononeimg{
+    width: 300px;
+  }
+  .sectiononeh2{
+    font-size: 45px;
+  }
+  .sectiontwobutton button{
+    font-size: 15px ;
+  }
+  #sectionone{
+    height: 400px;
+  }
+  .sectionfourimg{
+    width: 180px;
+    height: 230px;
+  }
+  .sectionfifthimg{
+    width: 180px;
+    height: 230px;
+  }
+  .sectionthreeimgh3{
+    font-size: 22px;
+  }
+  .sectionfourimgh3{
+    font-size: 23px;
+  }
+  .sectionfifthimgh3{
+    font-size: 23px;
+  }
+  .sectiontwo.divtwo{
+    margin-top: -100px;
+    margin-left: 100px;
+  }
+  .sectiontwo.divthree{
+    margin-top: -120px;
+    margin-left: 420px;
+  }
+}
+
+@media (max-width:940px){
+  .container{
+    max-width: 800px;
+  }
+  #sectiononeimg{
+    width: 300px;
+  }
+  .sectiononeh2{
+    font-size: 40px;
+  }
+  .sectiontwobutton button{
+    font-size: 13px ;
+    font-weight: 700;
+  }
+  .sectiontwoimg img{
+    width: 80px;
+    height: 110px;
+  }
+  .sectiontwo.divthree{
+    margin-left: 400px;
+  }
+}
+
+@media (max-width:820px){
+  .container{
+    max-width: 700px;
+  }
+  .sectiononeh2{
+    font-size: 36px;
+  }
+  .sectiontwobutton button{
+    padding: 5px 10px 5px 10px;
+  }
+  .sectiontwoh31{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .sectionone.divtwo{
+    margin-left: 250px;
+  }
+  .sectiontwo.divtwo{
+    margin-left: 70px;
+  }
+  .sectiontwo.divthree{
+    margin-top: -100px;
+    margin-left: 330px;
+  }
+}
+
+@media (max-width:720px){
+  .container{
+    max-width: 580px;
+  }
+  #sectiononeimg{
+    width: 250px;
+  }
+  .sectiononeh2{
+    font-size: 30px;
+  }
+  .sectiontwoimg img{
+    width: 60px;
+    height: 80px;
+  }
+  .sectiontwobutton button{
+    font-size: 12px ;
+    font-weight: 600;
+    padding: 3px 8px 3px 8px;
+    border-width: 1.5px 0px 1.5px 0px;
+  }
+  .sectiontwoh31{
+    font-size: 18px;
+  }
+  .sectiontwoh32{
+    font-size: 15px;
+  }
+  .sectionthreeimgh3 {
+    font-size: 20px;
+  }
+  .sectionfourimg{
+    width: 170px;
+    height: 220px;
+  }
+  .sectionfifthimg{
+    width: 170px;
+    height: 220px;
+  }
+  .sectionthree .col{
+    display: inline-block;
+  }
+  .sectionone.divtwo{
+    margin-left: 200px;
+  }
+  .sectiontwo.divtwo{
+    margin-left: 50px;
+    margin-top: -70px;
+  }
+  .sectiontwo.divthree{
+    margin-top: -70px;
+    margin-left: 280px;
+  }
+}
+
+@media (max-width:480px){
+  .hslogo{
+    font-size: 40px;
+  }
+  .custom-shape-divider-top-1715410964 {
+    top: 61px;
+  }
+  .custom-shape-divider-top-1715410964 svg {
+    height: 15px;
+  }
+  #hsphoneicon{
+    font-size: 20px;
+  }
+  #hsemail{
+    font-size: 20px;
+  }
+  .sectionfourimg{
+    width: 300px;
+    height: 400px;
+  }
+  .sectionfifthimg{
+    width: 300px;
+    height: 400px;
+  }
+  .sectionthreeimg{
+    width: 150;
+    margin-top: 50px;
+    margin: 0px 50px;
+  }
+  .sectionthreeimgh3{
+    font-size: 25px;
+  }
+  .sectionthreeimgp{
+    margin-bottom: 50px;
+  }
+  .sectionfourimgh3{
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .sectionfifthimgh3{
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .sectionfifth{
+    background-size: cover ;
+    background-position: right;
+  }
+  .allsectionthreehead h3{
+    font-size: 35px;
+  }
+  .sectionsixthp{
+    font-size: 16px;
+    padding: 10px;
+  }
+  .sectionthreeimgp{
+    font-size: 16px;
+    padding: 10px;
+  }
+  .sectionone.divone{
+    margin: 0px 70px 0px 10px;
+    display: inline-block;
+  }
+  #sectionone .text-animate h2{
+    font-size: 55px;
+  }
+  #sectiononeimg{
+    width: 270px;
+  }
+  .sectionone.divone{
+    margin-top: -50px;
+  }
+  .sectionone.divtwo{
+    margin-top: 30px;
+    margin-left: -30px;
+  }
+  #sectionone{
+    height: 600px;
+  }
+  .roateh2{
+    display: block;
+    transform: rotate(270deg);
+    font-family: "Niconne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    margin-top: -160px;
+    margin-right: -270px;
+  }
+  .sectiontwo.divone{
+    justify-content: center;
+  }
+  .sectiontwo.divtwo{
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  .sectiontwo.divthree{
+    margin-top: 10px;
+    margin-left: auto;
+  }
+}
