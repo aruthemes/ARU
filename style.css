@@ -574,63 +574,29 @@ a{
 }
 
 @media (max-width:480px){
+  
+  /* <!-- Header Start--> */
+
   .hslogo{
-    font-size: 40px;
+    font-size: 50px;
   }
   .custom-shape-divider-top-1715410964 {
-    top: 61px;
+    top: 73px;
   }
   .custom-shape-divider-top-1715410964 svg {
     height: 15px;
   }
   #hsphoneicon{
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 15px;
   }
   #hsemail{
-    font-size: 20px;
-  }
-  .sectionfourimg{
-    width: 300px;
-    height: 400px;
-  }
-  .sectionfifthimg{
-    width: 300px;
-    height: 400px;
-  }
-  .sectionthreeimg{
-    width: 150;
-    margin-top: 50px;
-    margin: 0px 50px;
-  }
-  .sectionthreeimgh3{
     font-size: 25px;
+    margin-right: 15px;
   }
-  .sectionthreeimgp{
-    margin-bottom: 50px;
-  }
-  .sectionfourimgh3{
-    font-size: 26px;
-    margin-bottom: 50px;
-  }
-  .sectionfifthimgh3{
-    font-size: 26px;
-    margin-bottom: 50px;
-  }
-  .sectionfifth{
-    background-size: cover ;
-    background-position: right;
-  }
-  .allsectionthreehead h3{
-    font-size: 35px;
-  }
-  .sectionsixthp{
-    font-size: 16px;
-    padding: 10px;
-  }
-  .sectionthreeimgp{
-    font-size: 16px;
-    padding: 10px;
-  }
+
+  /* <!-- First Section Start --> */
+
   .sectionone.divone{
     margin: 0px 70px 0px 10px;
     display: inline-block;
@@ -661,6 +627,9 @@ a{
     margin-top: -160px;
     margin-right: -270px;
   }
+
+  /* <!-- Combo Pack section Two Start --> */
+
   .sectiontwo.divone{
     justify-content: center;
   }
@@ -672,4 +641,59 @@ a{
     margin-top: 10px;
     margin-left: auto;
   }
+
+  /* <!-- Third Section Start --> */
+
+  .sectionthreeimg{
+    width: 150;
+    margin-top: 50px;
+    margin: 0px 50px;
+  }
+  .sectionthreeimgh3{
+    font-size: 25px;
+  }
+  .sectionthreeimgp{
+    margin-bottom: 50px;
+  }
+  .sectionthreeimgp{
+    font-size: 16px;
+    padding: 10px;
+  }
+  /* <!-- Fourth Section Start --> */
+
+  .sectionfourimgh3{
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .sectionfourimg{
+    width: 300px;
+    height: 400px;
+  }
+  /* <!-- Fifth Section Start --> */
+
+  .sectionfifthimgh3{
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .sectionfifth{
+    background-size: cover ;
+    background-position: right;
+  }
+  .sectionfifthimg{
+    width: 300px;
+    height: 400px;
+  }
+
+  /* <!-- Sixth Section Start --> */
+  .sectionsixthp{
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .allsectionthreehead h3{
+    font-size: 35px;
+  }
+
+  
+  
 }
